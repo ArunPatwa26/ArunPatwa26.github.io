@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            /* flex-direction: column; */
+        }
+
+        .navbar {
+            display: flex;
+            float: right;
+            margin: 9px 47%;
+            /* justify-content: center; */
+        }
+
+        .nav li a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 4px;
+            padding: 4px 6px;
+        }
+
+        .nav {
+            display: flex;
+            margin: 0px 10px;
+            /* float: right; */
+            /* justify-content: center; */
+        }
+
+        .nav li {
+            list-style: none;
+            margin: 30px 18px;
+
+        }
+
+        .nav li a {
+            /* list-style: none; */
+            text-decoration: none;
+            color: white;
+            font-weight: bold
+        }
+
+        .foot p {
+            margin: 4px 0px;
+        }
+
+        .background {
+            background-image: url('assets/burgerbg.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-attachment: fixed; */
+            opacity: 1.9;
+        }
+
+        .logo {
+            display: flex;
+            margin: 13px 35px;
+        }
+
+        .logo img {
+            background: transparent;
+        }
+
+        .section1 {
+            display: inline-block;
+            color: white;
+            margin: 9% 4%;
+            padding-bottom: 50px;
+        }
+
+        .section1 h1 {
+            font-size: 50px;
+            margin: 4px 0px;
+        }
+
+        .section1 p {
+            margin: 10px 0px;
+        }
+
+        .section1 .button {
+            background-color: red;
+            border-radius: 20px;
+            margin: 4px 0px;
+            width: 130px;
+            padding: 6px 15px;
+            color: white;
+
+        }
+
+        .section2 {
+            padding-top: 40px;
+            background-image: url('assets/bglight.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: black"
+
+        }
+
+        .chefinfo {
+            text-align: center;
+        }
+
+        .chefinfo h1 {
+            margin: 15px 0px;
+        }
+
+        .chefs {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chef {
+            display: flex;
+            margin: 5% 4px;
+            justify-content: center;
+        }
+
+        .container {
+            margin: 8px 45px;
+        }
+
+        .container img {
+            border-radius: 50px;
+        }
+
+        .container h1 {
+            margin: 8px 0px;
+        }
+
+        .section3 {
+            display: flex;
+            background-color: red;
+        }
+
+        .product img {
+            border-radius: 100%;
+            margin: 14vh 10vw;
+
+        }
+
+        .productinfo {
+            color: white;
+            max-width: 400px;
+            margin: 28vh 10vw;
+        }
+
+        .productinfo h1 {
+            font-size: 45px;
+        }
+
+        .productinfo p {
+            margin: 15px 0px;
+        }
+
+        .productinfo button {
+            width: 10vw;
+            height: 5vh;
+            border-radius: 50px;
+            margin: 2vh 0vw;
+            color: red;
+            font-weight: bold;
+        }
+
+        .section4 {
+            background-color: white;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+        }
+
+        .product2 {
+            margin: 29vh 10vw;
+            color: red;
+        }
+
+        .product2 h1 {
+            font-size: 45px;
+        }
+
+        .product2 p {
+            margin: 15px 0px;
+            ;
+        }
+
+        .product2 button {
+            width: 10vw;
+            height: 5vh;
+            border-radius: 50px;
+            background-color: red;
+            margin: 2vh 0vw;
+            color: white;
+            font-weight: bold;
+        }
+
+        .productimg img {
+            border-radius: 100%;
+            margin: 14vh 10vw;
+        }
+
+        .section5 {
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 100px;
+        }
+
+        .section5 .info {
+            color: white;
+            text-align: center;
+            max-width: 600px;
+            justify-content: center;
+            margin: 6vh auto;
+        }
+
+        .section5 .info h1 {
+            font-size: 40px;
+        }
+
+        .section5 .info p {
+            margin: 4vh 0vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="header">
+            <div class="logo">
+                <img src="assets/logo.webp" alt="" height="80px" width="80px">
+            </div>
+            <div class="navbar">
+                <ul class="nav">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">PROMO</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="section1">
+            <h1>Get Cashback</h1>
+            <h1>up to 50%</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Odio sint tenetur minima dignissimos voluptatum dolorem <br>
+                possimus blanditiis</p>
+            <p class="button"> ORDER NOW</p>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="chefinfo">
+            <div>
+                <h1>Our Chef</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus <br>
+                    dignissimos aliquid harum deserunt similique,a </p>
+            </div>
+            <div class="chefs">
+                <div class="chef">
+                    <div class="container"><img src="assets/shafe1.png" alt="">
+                        <h1>Aarti Sequeira</h1>
+                        <h2>Founder</h2>
+                    </div>
+                    <div class="container"><img src="assets/shafe2.jpeg" alt="">
+                        <h1>Amit Puri</h1>
+                        <h2>Co-Founder</h2>
+                    </div>
+                    <div class="container"><img src="assets/shafe3.jpeg" alt="">
+                        <h1>Anjum Anand</h1>
+                        <h2>Co-Founder</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section3">
+
+
+
+
+        <div class="product"><img src="assets/burger1.jpg" alt="" height="400px" width="400px">
+        </div>
+        <div class="productinfo">
+            <h1>BEST BURGER</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo facere
+                assumenda voluptas ex distinctio quibusdam corporis voluptate, ab molestiae facilis minima quisquam
+                labore accusamus </p>
+            <button> <span id="order1" onclick="button1()">ORDER NOW</span></button>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="product2">
+            <h1>BIG BURGER</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quisquam quam
+                earum eos aliquam a obcaecati magni sapiente ab accusantium, voluptates molestias non, recusandae aut?
+            </p>
+            <button><span id="order" onclick="button()"> ORDER NOW</span></button>
+        </div>
+
+        <div class="productimg">
+            <img src="assets/burger2.jpg" alt="" height="420px" width="450px">
+        </div>
+    </div>
+    <div class="section5">
+        <div class="info">
+            <h1>Statistics</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est explicabo, dolore
+                laboriosam non voluptatibus architecto. Ullam pariatur explicabo </p>
+        </div>
+        <div style="display: flex; justify-content: center; color: white; margin: 20px 0px;">
+            <div
+                style="margin: 0px 30px; border: 2px solid white; border-radius: 100%; width: 18vw; height: 38vh; text-align: center; padding: 26px 0px;">
+                <p style="font-size: 110px;">7k</p>
+                <p style="font-size: 30px; text-align: center;">CUSTOMER</p>
+            </div>
+            <div
+                style="margin: 0px 30px;  border: 2px solid white; border-radius: 100%; width: 18vw; height: 38vh; text-align: center; padding: 26px 0px;">
+                <p style="font-size: 110px;  ">109</p>
+                <p style="font-size: 30px; text-align: center;">OUTLETS</p>
+            </div>
+            <div
+                style="margin: 0px 30px;  border: 2px solid white; border-radius: 100%; width: 18vw; height: 38vh; text-align: center; padding: 26px 0px;">
+                <p style="font-size: 110px;">35</p>
+                <p style="font-size: 30px; text-align: center;">COUNTRY </p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: column; color: red; padding-bottom: 15vh; background-color:#ffefd5">
+        <div>
+            <h1 style="color: red; text-align: center; margin: 10vh 0vw;">Popular Package</h1>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div style="margin: 0px 20px; max-width: 250px; text-align: center; background-color: white">
+                <h1 style="margin: 4vh 0vw;">PACKAGE I</h1><img src="assets/icon.png" alt="" height="80vh"
+                    style="margin: 0vh 0vw; ;">
+                <p style="margin: 2vh 0vw;">$10</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p><button
+                    style="width: 10vw; height: 5vh; border-radius: 50px; margin: 2vh 0vw;  color: white; background-color: red; font-weight: bold;">ORDER
+                    NOW</button>
+            </div>
+            <div style="margin: 0px 20px; max-width: 250px; text-align: center; background-color: white">
+                <h1 style="margin: 4vh 0vw;">PACKAGE II</h1><img src="assets/icon.png" alt="" height="80vh"
+                    style="margin: 0vh 0vw;">
+                <p style="margin: 2vh 0vw;">$20</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p><button
+                    style="width: 10vw; height: 5vh; border-radius: 50px; margin: 2vh 0vw; color: white; background-color: red; font-weight: bold;">ORDER
+                    NOW</button>
+            </div>
+            <div style="margin: 0px 20px; max-width: 250px; text-align: center; background-color: white">
+                <h1 style="margin: 4vh 0vw;">PACKAGE III</h1><img src="assets/icon.png" alt="" height="80vh"
+                    style="margin: 0vh 0vw;">
+                <p style="margin: 2vh 0vw;">$30</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p><button
+                    style="width: 10vw; height: 5vh; border-radius: 50px; margin: 2vh 0vw; color: white; background-color: red; font-weight: bold;">ORDER
+                    NOW</button>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: red; display: flex; flex-direction: column;">
+        <div style="text-align: center; color: white; max-width: 500px; justify-content: center; margin: 15% auto;">
+
+            <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cupiditate
+                in nulla accusantium earum blanditiis autem hic sequi, delectus quasi neque eligendi rerum vel ratione!
+            </p>
+            <p style="margin: 25px 0px; font-size: 32px;">Barry Henderson</p>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div style="justify-content: center; max-width: 580px; text-align: center; margin: 10% auto;">
+            <h1 style="margin: 20px 0px; font-size: 55px; color: red;">Don't Miss Our Update</h1>
+            <p style="max-width: 530px; margin: 25px 0px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem quae doloremque doloribus sapiente, exercitationem </p>
+            <input type="Email" placeholder="Your Email"
+                style="width: 350px; height: 38px; background-color: white; border-radius: 20px 0px 0px 20px; padding: 0px 10px; margin-right: 120px; ">
+            <p
+                style="background-color: red; display: inline-block; width: 120px; height: 38px;position: absolute; right: 34%; padding: 10px 0px; border-radius: 0px 20px 20px 0px;">
+                <a href="" style="text-decoration: none; color: white;">SUBSCRIBE</a>
+            </p>
+        </div>
+    </div>
+    <div style="background-color: black; display: flex; flex-direction: column; justify-content: center;">
+        <div style="color: white; display: flex; margin: 3% 0px;">
+            <div style="max-width: 350px; margin: 0px 50px; ">
+                <h3 style="margin-bottom: 20px;">Title Here</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet ipsam culpa, asperiores tenetur
+                    optio voluptates facilis <br>
+                <div style="margin: 10px 10px;">
+
+                    <img src="assets/insta.png" alt="" width="30px" style="margin: 0px 5px;"><img
+                        src="assets/facebook.png" alt="" width="30px" style="margin: 0px 5px;"><img
+                        src="assets/twitter.png" alt="" width="30px" style="margin: 0px 5px;">
+
+                    <img src="assets/linkdin.png" alt="" width="30px" style="margin: 0px 5px;">
+                </div>
+                </p>
+            </div>
+            <div class="foot"
+                style="margin: 0px 80px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;""><h3 style="
+                margin-bottom: 20px;">About</h3>
+                <p>History</p>
+                <p>Our Team</p>
+                <p>Brand Guidenes</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Police</p>
+            </div>
+            <div class="foot" class="nav"
+                style="margin: 0px 80px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                <h3 style="margin-bottom: 20px;">Services</h3>
+                <p>How to Order</p>
+                <p>Our Products</p>
+                <p>Order Status</p>
+                <p>Promo</p>
+                <p>Payment Method</p>
+            </div>
+            <div class="foot"
+                style="margin: 0px 80px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;""><h3 style="
+                margin-bottom: 20px;">Other</h3>
+                <p>Contact Us</p>
+                <p>Help</p>
+                <p>Privacy</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
