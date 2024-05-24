@@ -426,6 +426,7 @@
 
     .section1 .profile-photo {
         margin: auto;
+        padding-bottom: 20px;
         margin-top: 15px;
     }
 
@@ -521,10 +522,7 @@
     .section3 .section3-image .img1 {
         text-align: center;
         margin-top: 20px;
-        margin-bottom: 10px;
-        /* max-width: 350px; */
-
-        /* margin-bottom: 140px; */
+        margin-bottom: -146px;
     }
 
     .section3 .section3-image .img2 {
@@ -654,7 +652,7 @@
     .footer {
         display: flex;
         background-color: #008080;
-        margin-top: 80px;
+        /* margin-top: 80px; */
         padding-bottom: 50px;
         justify-content: space-evenly;
     }
