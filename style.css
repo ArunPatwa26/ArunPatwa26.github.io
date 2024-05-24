@@ -102,7 +102,7 @@
 
 .section2 {
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     justify-content: space-between;
     /* background-color: #F0FFF0; */
 }
